@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0;
+}
+
+body {
+    width:100%;
+    height:100%;
+}
+
+/* HEADER */
+.header {
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    gap:10px;
+}
+
+img {
+    width:250px;
+    height:auto;
+    margin-bottom: -10px;
+}
+
+.header-links {
+    display:flex;
+    gap:50px;
+    font-size:24px;
+}
+    .links *{
+        
+    }
+
+/* MAIN */
+.main {
+    width:100%;
+    height:100%;
+    margin:10px;
+    border-top: 3px solid limegreen;
+
+}
+
+.section1 {
+    display:flex;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    padding:10%;
+    gap:10px;
+    margin-left:0;
+    background-image: url(../alif/images/hondacCivicBackground.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    opacity: 0.5;
+    border-bottom: 3px solid limegreen;
+
+    
+}
+
+    .section1-header {
+        font-size:72px;
+        font-weight: 900;
+        width:50%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: -webkit-linear-gradient(orange, yellow);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+        
+    .section1-subtitle {
+        font-size:24px;
+        color:white;
+    }
+
+.section2 {
+    background-color: white;
+    padding:60px;
+    width:100%;
+    height:100%;
+    border-bottom: 3px solid limegreen;
+
+}
+    .about-us {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:15px;
+        margin-top:50px;
+    }
+
+    .about-us-header {
+        font-size:60px;
+        text-align: center;
+    }
+
+    .about-us-subtitle {
+        font-size:30px;
+    }
+
+    .about-us-text {
+        font-size:20px;
+        text-align: center;
+        gap:10px;
+        line-height: 26pt;
+        width:40em;
+    }
+    .about-us p {
+        font-size:20px;
+        background-color: blueviolet;
+        color:white;
+        font-weight: 700;
+        padding:15px;
+        border-radius: 40px;
+        box-shadow: 0px 0px 30px 2px purple;
+        margin-top:15px;
+    }
+
+.section3 {
+  background-color: azure;
+  padding:20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:20px;
+  border-bottom: 3px solid limegreen;
+}
+    .section3-header {
+        font-size: 48px;
+        padding-top:40px;
+        padding-bottom:20px;
+    }
+
+    .service-cards {
+        width:100vh;
+        height:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;   
+        gap:10%; 
+
+}
+/* G2 Card */
+    .card {
+        border:1px solid blue;
+        background: white; 
+        padding:4rem 1em; 
+        text-align: center; 
+        box-shadow: 0 10px 50px 4px rgba(185,180,180,1);
+        border-radius: 20px;
+        width:300px;
+        height:auto;
+    }
+
+    .g2-title h1{
+        font-size:xx-large;
+    }
+
+    .card *{
+        margin-top:10px;
+        font-size:20px;
+    }
+
+    .section3 .cards button {
+        padding:10px;
+        margin-top:25px;
+        border-radius:20px;
+        background-color:crimson;
+        color:white;
+        font-weight: ;
+        box-shadow: 0 10px 50px 4px orange;
+    }
+    
+/* G Card */
+
+    .card {
+        border:1px solid blue;
+        background: white; 
+        padding:4rem 1em; 
+        text-align: center; 
+        box-shadow: 0 10px 50px 4px yellow;
+        border-radius: 20px;
+        width:300px;
+        height:auto;
+        margin-bottom: 40px;;
+    }
+
+    .g-title h1{
+        font-size:xx-large;
+    }
+
+    .card *{
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-size:20px;
+    }
+
+    .section3 .service-cards button {
+        padding:10px;
+        margin-top:25px;
+        border-radius:20px;
+        background-color:crimson;
+        color:white;
+        font-weight: 300;
+        box-shadow: 0 10px 50px 4px orange;
+    }
+   
+
+/* Section 4 */
+
+.section4 {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 24, 24);
+    padding:70px;
+    width:100%;
+    height:100%;
+    gap:10px;
+}
+    .inner-box {
+        flex-wrap:wrap;
+        background-color: white;
+        padding:20px;
+        box-shadow: 0 0px 60px 4px blue;
+        border-radius: 10px;
+    }
+
+    .inner-box p {
+        font-size:16px;
+        flex-wrap: wrap;
+    }
+
+    .inner-box * {
+        margin:10px;
+    }
+
+    .form-group * {
+        margin:0;
+    }
+
+    .form-control{  /* Contact Boxes */
+        font-size:13px;
+        padding:10px;
+        border-radius: 10px;
+    }
+
+    #submit {
+        font-size:13px;
+        margin-right:10px;
+        color:white;
+        border-radius: 10px;
+        font-weight:700;
+        padding:10px;
+        background-color: rgba(190, 60, 188, 0.597);
+    }
+    
+    /* Our Contact */
+
+    .contact-information {
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        background-color: whitesmoke;
+        box-shadow: 0 0px 60px 4px red;
+        border-radius: 10px;
+        padding:25px;
+        margin-left:40px;
+        width:300px;
+        flex-shrink: 0;
+        gap:10px;
+    }
+
+        .Contact-title {
+            font-size:29px;            
+        }
+
+        .contact-information hr {
+            margin-bottom: 1em;
+        }
+
+        .our-email, .our-social-media, .Phone-number {
+            font-size:18px;
+        }
+
+        .our-social-media p {
+            gap:10px;
+        }
